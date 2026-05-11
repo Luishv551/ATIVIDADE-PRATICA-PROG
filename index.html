@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Santos | Portfólio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===========================
+       NAVEGAÇÃO PRINCIPAL
+       Menu fixo no topo com links de âncora para cada seção
+  =========================== -->
+  <header id="header">
+    <nav class="navbar">
+      <!-- Logo / Nome -->
+      <a href="#sobre" class="nav-logo">Luis Santos</a>
+
+      <!-- Botões de controle (tema + hamburger) -->
+      <div class="nav-controls">
+
+        <!-- Botão de alternância de tema claro/escuro -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+          <span id="theme-icon">☀️</span>
+        </button>
+
+        <!-- Botão hamburger para mobile -->
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Links de navegação -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre"    class="nav-link">Sobre Mim</a></li>
+        <li><a href="#formacao" class="nav-link">Formação</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+        <li><a href="#contato"  class="nav-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===========================
+       SEÇÃO: SOBRE MIM
+       Apresentação pessoal, foto, hobbies
+  =========================== -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2 class="section-title">Sobre Mim</h2>
+      <div class="about-grid">
+
+        <!-- Avatar com iniciais -->
+        <div class="about-avatar">
+          <div class="avatar-circle">LS</div>
+        </div>
+
+        <!-- Texto de apresentação -->
+        <div class="about-text">
+          <h3>Luis Santos</h3>
+          <p class="about-role">Data Analyst | Data Engineer | Financial Markets</p>
+          <p>
+            Olá! Sou Luis, estudante de Ciência de Dados na FIAP e trabalho na área de
+            Dados e Mercados Financeiros. Tenho paixão por transformar dados em decisões
+            estratégicas, desenvolvendo pipelines robustos e dashboards interativos que
+            geram valor real para os negócios.
+          </p>
+          <p>
+            Atualmente atuo na <strong>RBR Asset</strong>, em São Paulo, onde combino
+            análise quantitativa com engenharia de dados para suportar decisões de
+            investimento.
+          </p>
+
+          <!-- Tags de interesse / hobbies -->
+          <div class="tags">
+            <span class="tag">📊 Análise de Dados</span>
+            <span class="tag">🤖 Inteligência Artificial</span>
+            <span class="tag">📈 Mercado Financeiro</span>
+            <span class="tag">🚀 Automação</span>
+
+          </div>
+
+          <!-- Links de redes sociais -->
+          <div class="social-links">
+            <a href="https://github.com/Luishv551" target="_blank" rel="noopener" class="social-btn">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/luis-vargas-santos" target="_blank" rel="noopener" class="social-btn">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SEÇÃO: FORMAÇÃO
+       Educação, cursos e idiomas
+  =========================== -->
+  <section id="formacao" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Formação</h2>
+
+      <!-- Grade de cartões de formação -->
+      <div class="cards-grid">
+
+        <!-- Graduação -->
+        <div class="card">
+          <div class="card-icon">🎓</div>
+          <h3>Bacharelado em Ciência de Dados</h3>
+          <p class="card-subtitle">FIAP — São Paulo, SP</p>
+          <p class="card-period">2025</p>
+          <p>
+            Graduação focada em análise de dados, machine learning, engenharia de dados
+            e desenvolvimento de soluções baseadas em inteligência artificial.
+          </p>
+        </div>
+
+        <!-- Cursos técnicos -->
+        <div class="card">
+          <div class="card-icon">💻</div>
+          <h3>Cursos e Certificações</h3>
+          <p class="card-subtitle">Plataformas Online</p>
+          <p class="card-period">2022 – presente</p>
+          <ul class="card-list">
+            <li>Python para Data Science</li>
+            <li>Azure Data Engineer</li>
+            <li>Power BI Avançado</li>
+            <li>SQL e NoSQL</li>
+            <li>Docker e Linux</li>
+          </ul>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="card">
+          <div class="card-icon">🌎</div>
+          <h3>Idiomas</h3>
+          <p class="card-subtitle">Competências Linguísticas</p>
+          <br />
+          <ul class="card-list">
+            <li>Português — Nativo</li>
+            <li>Inglês — Avançado</li>
+          </ul>
+        </div>
+
+        <!-- Stack técnica -->
+        <div class="card">
+          <div class="card-icon">⚙️</div>
+          <h3>Stack Técnica</h3>
+          <p class="card-subtitle">Tecnologias que utilizo no dia a dia</p>
+          <br />
+          <div class="tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Azure</span>
+            <span class="tech-tag">Fabric</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Power BI</span>
+            <span class="tech-tag">Tableau</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">NoSQL</span>
+            <span class="tech-tag">Linux</span>
+            <span class="tech-tag">OpenAI</span>
+            <span class="tech-tag">Gemini</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SEÇÃO: PORTFÓLIO
+       Projetos realizados com links
+  =========================== -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Portfólio</h2>
+      <p class="section-subtitle">Projetos desenvolvidos e disponíveis no GitHub</p>
+
+      <!-- Grade de projetos -->
+      <div class="projects-grid">
+
+        <!-- Projeto 1: data-agent -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🤖</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3>data-agent</h3>
+          <p>
+            Agente inteligente de dados desenvolvido em Python. Automatiza consultas
+            e processamento de dados utilizando modelos de linguagem e APIs de IA.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/Luishv551/data-agent" target="_blank" rel="noopener" class="project-link">
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 2: reporting-automation -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📑</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3>reporting-automation</h3>
+          <p>
+            Solução de automação para geração de relatórios financeiros. Coleta,
+            processa e distribui dados automaticamente, economizando horas de trabalho
+            manual.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/Luishv551/reporting-automation" target="_blank" rel="noopener" class="project-link">
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 3: FIAP -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🎓</span>
+            <span class="project-lang">Jupyter Notebook</span>
+          </div>
+          <h3>FIAP — Projetos Acadêmicos</h3>
+          <p>
+            Repositório com todos os projetos e trabalhos desenvolvidos durante a
+            graduação em Ciência de Dados na FIAP. Inclui EDA, machine learning e
+            engenharia de dados.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/Luishv551/FIAP" target="_blank" rel="noopener" class="project-link">
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 4: Python_General -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🐍</span>
+            <span class="project-lang">Jupyter Notebook</span>
+          </div>
+          <h3>Python General</h3>
+          <p>
+            Coleção de algoritmos e exercícios de Data Science em Python.
+            Aborda estruturas de dados, algoritmos clássicos e análise exploratória.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/Luishv551/Python_General" target="_blank" rel="noopener" class="project-link">
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 5: Python_Portfolio -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">💹</span>
+            <span class="project-lang">Python</span>
+          </div>
+          <h3>Python Portfolio — LTS Investments</h3>
+          <p>
+            Projeto desenvolvido para a LTS Investments: consolida informações de
+            investimentos e gera análises detalhadas via Power BI. Pipeline completo
+            de dados financeiros.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/Luishv551/Python_Portfolio" target="_blank" rel="noopener" class="project-link">
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 6: Este portfólio -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🌐</span>
+            <span class="project-lang">HTML / CSS / JS</span>
+          </div>
+          <h3>Portfólio Web</h3>
+          <p>
+            Este próprio site! Desenvolvido com HTML5, CSS3 e JavaScript puro, sem
+            frameworks, como parte da disciplina Fundamentos da Programação Web na FIAP.
+          </p>
+          <div class="project-footer">
+            <a href="https://github.com/Luishv551/atividade-pratica-prog" target="_blank" rel="noopener" class="project-link">
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       SEÇÃO: CONTATO
+       Formulário com validação JavaScript
+  =========================== -->
+  <section id="contato" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <p class="section-subtitle">Tem uma proposta ou quer trocar ideias? Fale comigo!</p>
+
+      <div class="contact-grid">
+
+        <!-- Informações de contato -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>São Paulo, SP — Brasil</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <span>RBR Asset Management</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <a href="https://github.com/Luishv551" target="_blank" rel="noopener">github.com/Luishv551</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🔗</span>
+            <a href="https://www.linkedin.com/in/luis-vargas-santos" target="_blank" rel="noopener">in/luis-vargas-santos</a>
+          </div>
+        </div>
+
+        <!-- Formulário de contato com validação JS -->
+        <form id="contact-form" class="contact-form" novalidate>
+
+          <!-- Campo: Nome -->
+          <div class="form-group">
+            <label for="nome">Nome *</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu nome completo"
+              autocomplete="name"
+            />
+            <!-- Mensagem de erro exibida pelo JS -->
+            <span class="form-error" id="erro-nome"></span>
+          </div>
+
+          <!-- Campo: E-mail -->
+          <div class="form-group">
+            <label for="email">E-mail *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+              autocomplete="email"
+            />
+            <span class="form-error" id="erro-email"></span>
+          </div>
+
+          <!-- Campo: Mensagem -->
+          <div class="form-group">
+            <label for="mensagem">Mensagem *</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Como posso te ajudar?"
+            ></textarea>
+            <span class="form-error" id="erro-mensagem"></span>
+          </div>
+
+          <button type="submit" class="submit-btn">Enviar Mensagem</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===========================
+       MODAL DE CONFIRMAÇÃO
+       Exibido pelo JS após envio bem-sucedido do formulário
+  =========================== -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <div class="modal-icon">✅</div>
+      <h3 id="modal-title">Mensagem enviada com sucesso!</h3>
+      <p>Obrigado pelo contato, <strong id="modal-nome"></strong>!<br />Responderei em breve.</p>
+      <button id="modal-close" class="submit-btn">Fechar</button>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>© 2026 Luis Santos · Desenvolvido com HTML5, CSS3 &amp; JavaScript</p>
+  </footer>
+
+  <!-- JavaScript principal (carregado no final para não bloquear renderização) -->
+  <script src="js/main.js"></script>
+</body>
+</html>
